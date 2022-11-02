@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import PropTypes from "prop-types";
+import "./styles.css";
 
-const Icons = () => {
+import { AiOutlineCodeSandbox } from "react-icons/ai";
+
+const Icons = ({ style }) => {
   return (
-    <div>
-        
+    <div className="Icon">
+      <AiOutlineCodeSandbox className={style} />
     </div>
-  )
-}
+  );
+};
 
-export default Icons
+Icons.defaultProps = {
+  style: "",
+};
+
+Icons.prototypes = {
+  style: PropTypes.string,
+};
+export default Icons;

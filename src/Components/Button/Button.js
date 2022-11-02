@@ -9,11 +9,12 @@ const Button = ({
   clickHandler,
   outline,
   disabled,
+  boxShadow,
 }) => {
   return (
-    <div className="Wrapper">
+    <div>
       <button
-        className={`${variant} ${size} ${outline} ${disabled} btn`}
+        className={`${variant} ${size} ${outline} ${disabled} ${boxShadow} btn`}
         onClick={clickHandler}
       >
         {children}
@@ -29,6 +30,7 @@ Button.defaultProps = {
   disabled: "",
   children: "",
   clickHandler: null,
+  boxShadow: "",
 };
 
 Button.prototypes = {
