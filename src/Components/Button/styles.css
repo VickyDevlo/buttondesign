@@ -7,19 +7,19 @@
 
 .sm {
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 16px;
     border-radius: 8px;
 }
 
 .md {
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 8px;
 }
 
 .lg {
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 8px;
 }
 
@@ -27,6 +27,11 @@
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
+}
+.secondary {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
 }
 
 .success {
@@ -54,11 +59,6 @@
     border-radius: 8px;
 }
 
-.secondary {
-    color: #fff;
-    background-color: #5a6268;
-    border-color: #545b62;
-}
 
 .disabled {
     color: rgb(208, 206, 206);

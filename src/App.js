@@ -4,6 +4,7 @@ import Button from "./Components/Button/Button";
 function App() {
   return (
     <div className="App">
+
       <Button size="sm" variant="primary">
         Small button
       </Button>
@@ -15,7 +16,7 @@ function App() {
       <Button size="lg" variant="danger">
         Large button
       </Button>
-  
+
     </div>
   );
 }
