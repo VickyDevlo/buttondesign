@@ -1,0 +1,71 @@
+.btn {
+    background-color: transparent;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.md {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.lg {
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.success {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.info {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.warning {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.danger {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+    border-radius: 8px;
+}
+
+.secondary {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.disabled {
+    color: rgb(208, 206, 206);
+    background-color: #6c757d;
+    border-color: #6c757d;
+    cursor: default;
+}
+.outline{
+    border:1px solid black;
+}
