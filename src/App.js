@@ -30,7 +30,7 @@ function App() {
         Large button
       </Button>
 
-      <Button boxShadow="boxShadow">
+      <Button size="sm" boxShadow="boxShadow">
         <Icons />
         Small button
       </Button>

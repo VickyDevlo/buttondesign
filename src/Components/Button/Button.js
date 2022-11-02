@@ -14,7 +14,12 @@ const Button = ({
   return (
     <div>
       <button
-        className={`${variant} ${size} ${outline} ${disabled} ${boxShadow} btn`}
+        className={`
+        ${variant} 
+        ${size} ${outline} 
+        ${disabled} ${boxShadow} 
+        btn
+      `}
         onClick={clickHandler}
       >
         {children}
