@@ -3,22 +3,23 @@
     border: 0;
     margin: 10px;
     cursor: pointer;
+
 }
 
 .sm {
-    padding: 5px 10px;
+    padding: 10px 20px;
     font-size: 16px;
     border-radius: 8px;
 }
 
 .md {
-    padding: 5px 10px;
+    padding: 12px 20px;
     font-size: 20px;
     border-radius: 8px;
 }
 
 .lg {
-    padding: 5px 10px;
+    padding: 13px 25px;
     font-size: 24px;
     border-radius: 8px;
 }
@@ -28,6 +29,7 @@
     background-color: #007bff;
     border-color: #007bff;
 }
+
 .secondary {
     color: #fff;
     background-color: #5a6268;
@@ -47,7 +49,7 @@
 }
 
 .warning {
-    color: #212529;
+    color: #fff;
     background-color: #e0a800;
     border-color: #d39e00;
 }
@@ -66,6 +68,8 @@
     border-color: #6c757d;
     cursor: default;
 }
-.outline{
-    border:1px solid black;
+
+.outline {
+    border: 1px solid black;
+    color: black;
 }

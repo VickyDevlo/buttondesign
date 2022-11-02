@@ -1,10 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./styles.css";
-const Button = ({ variant, size, children, clickHandler }) => {
+
+const Button = ({
+  variant,
+  size,
+  children,
+  clickHandler,
+  outline,
+  disabled,
+}) => {
   return (
-    <div>
-      <button className={`${variant} ${size} btn`} onClick={clickHandler}>
+    <div className="Wrapper">
+      <button
+        className={`${variant} ${size} ${outline} ${disabled} btn`}
+        onClick={clickHandler}
+      >
         {children}
       </button>
     </div>
@@ -12,8 +23,10 @@ const Button = ({ variant, size, children, clickHandler }) => {
 };
 
 Button.defaultProps = {
-  variant: "primary",
+  variant: "",
   size: "sm",
+  outline: "",
+  disabled: "",
   children: "",
   clickHandler: null,
 };
