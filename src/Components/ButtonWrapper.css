@@ -1,0 +1,9 @@
+.Container {
+    display: inline-block;
+}
+ 
+.Wrapper{
+    display: flex; 
+    justify-items: center;
+}
+ 
