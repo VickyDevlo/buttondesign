@@ -10,6 +10,7 @@ const Button = ({
   outline,
   disabled,
   boxShadow,
+  textColor,
 }) => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Button = ({
         ${variant} 
         ${size} ${outline} 
         ${disabled} ${boxShadow} 
+        ${textColor}
         btn
       `}
         onClick={clickHandler}
@@ -36,6 +38,7 @@ Button.defaultProps = {
   children: "",
   clickHandler: null,
   boxShadow: "",
+  textColor: "",
 };
 
 Button.prototypes = {
@@ -46,6 +49,22 @@ Button.prototypes = {
     "info",
     "warning",
     "danger",
+  ]),
+  textColor: PropTypes.oneOf([
+    "textprimary",
+    "textsecondary",
+    "textsuccess",
+    "textinfo",
+    "textwarning",
+    "textdanger",
+  ]),
+  outline: PropTypes.oneOf([
+    "outlineprimary",
+    "outlinesecondary",
+    "outlinesuccess",
+    "outlineinfo",
+    "outlinewarning",
+    "outlinedanger",
   ]),
   size: PropTypes.oneOf(["sm", "md", "lg"]),
   children: PropTypes.node,

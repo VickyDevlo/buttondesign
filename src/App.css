@@ -1,5 +1,12 @@
 .App {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+}
+body{
+    text-align: center;
+    margin-top: 50px;
+}
+.Wrapper{
+    display: flex; 
+    justify-items: center;
 }
  

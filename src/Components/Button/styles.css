@@ -4,24 +4,23 @@
     margin: 10px;
     cursor: pointer;
     display: flex;
-    justify-content: space-between
 }
 
 .sm {
-    padding: 10px 10px;
+    padding: 8px 8px;
     font-size: 12px;
     border-radius: 8px;
 }
 
 .md {
-    padding: 12px 12px;
-    font-size: 18px;
+    padding: 10px 14px;
+    font-size: 15px;
     border-radius: 8px;
 }
 
 .lg {
-    padding: 15px 15px;
-    font-size: 22px;
+    padding:12px 30px;
+    font-size: 18px;
     border-radius: 8px;
 }
 
@@ -31,10 +30,19 @@
     border-color: #007bff;
 }
 
+.textprimary {
+    color: #007bff;
+
+}
+
 .secondary {
     color: #fff;
     background-color: #5a6268;
     border-color: #545b62;
+}
+
+.textsecondary {
+    color: #5a6268;
 }
 
 .success {
@@ -43,10 +51,18 @@
     border-color: #1e7e34;
 }
 
+.textsuccess {
+    color: #218838;
+}
+
 .info {
     color: #fff;
     background-color: #138496;
     border-color: #117a8b;
+}
+
+.textinfo {
+    color: #138496;
 }
 
 .warning {
@@ -55,11 +71,19 @@
     border-color: #d39e00;
 }
 
+.textwarning {
+    color: #e0a800;
+}
+
 .danger {
     color: #fff;
     background-color: #c82333;
     border-color: #bd2130;
     border-radius: 8px;
+}
+
+.textdanger {
+    color: #c82333;
 }
 
 
@@ -70,8 +94,24 @@
     cursor: default;
 }
 
-.outline {
-    border: 1px solid;
+.outlineprimary {
+    border: 1px solid #007bff;
+}
+
+.outlinesuccess {
+    border: 1px solid #218838;
+}
+
+.outlineinfo {
+    border: 1px solid #138496;
+}
+
+.outlinewarning {
+    border: 1px solid #e0a800;
+}
+
+.outlinedanger {
+    border: 1px solid #c82333;
 }
 
 .boxShadow {
